@@ -9,7 +9,7 @@ import traceback # Importing traceback for detailed error logging
 SCOPE = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive.file']
 
 # IMPORTANT: Ensure this filename matches the JSON key file in your 'credentials' folder.
-CREDS_FILE = 'credentials/ai-bus-agent-12345-a1b2c3d4e5f6.json' 
+CREDS_FILE = 'newaibusapi-2008.json' 
 
 # --- Your Specific Google Sheet ID ---
 # This is a more reliable way to open the sheet than using its name.
@@ -88,4 +88,5 @@ tools_schema = [
 # A dictionary to map the function name to the actual Python function.
 available_functions = {
     "find_bus_for_stop": find_bus_for_stop,
+
 }
