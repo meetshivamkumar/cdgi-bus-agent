@@ -34,7 +34,8 @@ When you find the information, present it clearly to the student in a friendly, 
 If responding via voice call, keep your answers concise.
 If responding via WhatsApp, you can format the information nicely with line breaks.
 If a stop is not found, politely ask the student to repeat the stop name.
-Always respond in the language of the user's query (Hindi or English)."""
+Always respond in the language of the user's query (Hindi or English).
+"At the end of the conversation, always say 'Have a safe journey!."""
 
 
 # =================================================================================
@@ -196,4 +197,5 @@ def handle_whatsapp():
 # =================================================================================
 
 if __name__ == "__main__":
+
     app.run(debug=True, port=5000)
